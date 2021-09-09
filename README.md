@@ -1,4 +1,5 @@
-# Elastic stack (ELK) on Docker
+# Elastic stack (ELK) on Docker 
+# Author: The blacktiger
 
 [![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-7.14.1-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
 [![Build Status](https://github.com/deviantony/docker-elk/workflows/CI/badge.svg?branch=main)](https://github.com/deviantony/docker-elk/actions?query=workflow%3ACI+branch%3Amain)
@@ -85,10 +86,7 @@ interact with the Docker daemon.*
 By default, the stack exposes the following ports:
 
 * 5044: Logstash Beats input
-* 5000: Logstash TCP input
-* 9600: Logstash monitoring API
 * 9200: Elasticsearch HTTP
-* 9300: Elasticsearch TCP transport
 * 5601: Kibana
 
 **:warning: Elasticsearch's [bootstrap checks][booststap-checks] were purposely disabled to facilitate the setup of the
